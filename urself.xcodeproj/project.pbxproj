@@ -14,10 +14,6 @@
 		C37F8A8B22DF787B00943C61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37F8A8922DF787B00943C61 /* Main.storyboard */; };
 		C37F8A8D22DF787C00943C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37F8A8C22DF787C00943C61 /* Assets.xcassets */; };
 		C37F8A9022DF787C00943C61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37F8A8E22DF787C00943C61 /* LaunchScreen.storyboard */; };
-		C38BCBA622E0B4CB005A379B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38BCBA522E0B4CB005A379B /* GameScene.swift */; };
-		C38BCBA822E0B78F005A379B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38BCBA722E0B78F005A379B /* GameViewController.swift */; };
-		C38BCBAA22E0B7A8005A379B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C38BCBA922E0B7A8005A379B /* GameScene.sks */; };
-		C38BCBAC22E0CB7A005A379B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C38BCBAB22E0CB7A005A379B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +27,6 @@
 		C37F8A8F22DF787C00943C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C37F8A9122DF787C00943C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C38BCBA422E0B169005A379B /* urself.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = urself.entitlements; sourceTree = "<group>"; };
-		C38BCBA522E0B4CB005A379B /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = ../../test/test/GameScene.swift; sourceTree = "<group>"; };
-		C38BCBA722E0B78F005A379B /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = ../../test/test/GameViewController.swift; sourceTree = "<group>"; };
-		C38BCBA922E0B7A8005A379B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = ../../test/test/GameScene.sks; sourceTree = "<group>"; };
-		C38BCBAB22E0CB7A005A379B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +59,7 @@
 		C37F8A8422DF787B00943C61 /* urself */ = {
 			isa = PBXGroup;
 			children = (
-				C38BCBA922E0B7A8005A379B /* GameScene.sks */,
-				C38BCBA722E0B78F005A379B /* GameViewController.swift */,
 				C38BCBA422E0B169005A379B /* urself.entitlements */,
-				C38BCBAB22E0CB7A005A379B /* GoogleService-Info.plist */,
-				C38BCBA522E0B4CB005A379B /* GameScene.swift */,
 				C37F8A8522DF787B00943C61 /* AppDelegate.swift */,
 				C37F8A8722DF787B00943C61 /* ViewController.swift */,
 				C37F8A8922DF787B00943C61 /* Main.storyboard */,
@@ -147,9 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C38BCBAA22E0B7A8005A379B /* GameScene.sks in Resources */,
 				C37F8A9022DF787C00943C61 /* LaunchScreen.storyboard in Resources */,
-				C38BCBAC22E0CB7A005A379B /* GoogleService-Info.plist in Resources */,
 				C37F8A8D22DF787C00943C61 /* Assets.xcassets in Resources */,
 				C37F8A8B22DF787B00943C61 /* Main.storyboard in Resources */,
 			);
@@ -162,10 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C38BCBA822E0B78F005A379B /* GameViewController.swift in Sources */,
 				C31B426D22EF466900AC3AD0 /* UserViewController.swift in Sources */,
 				C31B426B22EF43D300AC3AD0 /* SliderViewController.swift in Sources */,
-				C38BCBA622E0B4CB005A379B /* GameScene.swift in Sources */,
 				C37F8A8822DF787B00943C61 /* ViewController.swift in Sources */,
 				C37F8A8622DF787B00943C61 /* AppDelegate.swift in Sources */,
 			);
