@@ -13,8 +13,8 @@ class SliderViewController: UIViewController {
     
     var stressSlide: Int = 0
     
-    @IBOutlet weak var slider: UISlider!
+    @IBOutlet weak var stressSlider: UISlider!
     @IBAction func slider(_ sender: Any) {
-        stressSlide = Int(slider.value)    }
+        stressSlide = Int(stressSlider.value)    }
     
 }
