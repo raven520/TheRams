@@ -897,6 +897,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smooth wood" translatesAutoresizingMaskIntoConstraints="NO" id="JHi-mh-GFU">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="account" translatesAutoresizingMaskIntoConstraints="NO" id="iJi-QC-eC6">
                                 <rect key="frame" x="38" y="811" width="138" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -971,10 +975,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smooth wood" translatesAutoresizingMaskIntoConstraints="NO" id="JHi-mh-GFU">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.85683221269999998" green="0.95159995720000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="H1u-hk-SPI"/>
@@ -2245,9 +2245,9 @@
         <image name="trending-1" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="nV3-Mk-JPE"/>
-        <segue reference="HFr-D2-G6i"/>
-        <segue reference="9NO-b8-kUi"/>
+        <segue reference="mk0-g9-tMO"/>
+        <segue reference="5AJ-CG-FjV"/>
+        <segue reference="1aR-uY-krE"/>
         <segue reference="Ajy-jL-cXu"/>
         <segue reference="weP-Uz-2Ke"/>
         <segue reference="33G-zh-8fB"/>
