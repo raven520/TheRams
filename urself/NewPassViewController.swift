@@ -11,10 +11,10 @@ import UIKit
 
 class NewPassViewController: UIViewController {
     
-    var opass: String = ""
-    @IBOutlet weak var opassTextField: UITextField!
-    @IBAction func opass(_ sender: Any){
-        opass = opassTextField.text ?? ""
+    var olpass: String = ""
+    @IBOutlet weak var olpassTextField: UITextField!
+    @IBAction func olpass(_ sender: Any){
+        olpass = olpassTextField.text ?? ""
     }
     
     var npass: String = ""

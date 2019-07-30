@@ -11,11 +11,11 @@ import UIKit
 
 class EmailViewController: UIViewController {
     
-    var email: String = ""
+    var eemail: String = ""
     
-    @IBOutlet weak var emailTextField: UITextField!
-    @IBAction func emailData(_ sender: Any) {
-        email = emailTextField.text ?? ""
+    @IBOutlet weak var eemailTextField: UITextField!
+    @IBAction func eemailData(_ sender: Any) {
+        eemail = eemailTextField.text ?? ""
         
     } // how to access variable from another view controller?
     

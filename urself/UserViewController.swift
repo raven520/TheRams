@@ -13,9 +13,9 @@ class UserViewController: UIViewController {
 
     var username: String = ""
     
-    @IBOutlet weak var userDataTextField: UITextField!
+    @IBOutlet weak var userTextField: UITextField!
     @IBAction func userData(_ sender: Any) {
-        username = userDataTextField.text ?? ""
+        username = userTextField.text ?? ""
     }
     
     var password: String = ""

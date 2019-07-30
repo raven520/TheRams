@@ -11,9 +11,9 @@ import UIKit
 
 class NewEmailViewController: UIViewController {
     
-    var oemail: String = ""
-    @IBOutlet weak var oemailTextField : UITextField!
-    @IBAction func oemailData(_ sender: Any){
+    var olemail: String = ""
+    @IBOutlet weak var olemailTextField : UITextField!
+    @IBAction func olemailData(_ sender: Any){
         oemail = oemailTextField.text ?? ""
     }
     

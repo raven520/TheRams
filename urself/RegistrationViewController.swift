@@ -31,17 +31,17 @@ class RegistrationViewController: UIViewController{
         email = emailTextField.text ?? ""
     }
     
-    var password: String = ""
+    var pass: String = ""
     @IBOutlet weak var passTextField: UITextField!
     @IBAction func passData(_ sender: Any) {
-        password = passTextField.text ?? ""
+        pass = passTextField.text ?? ""
     }
     
     var confirmPass: String = ""
     @IBOutlet weak var cpassTextField: UITextField!
     @IBAction func cpassData(_ sender: Any) {
         confirmPass = cpassTextField.text ?? ""
-        confirmPass = password
+        confirmPass = pass
     }
     
 }

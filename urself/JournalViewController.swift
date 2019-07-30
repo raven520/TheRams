@@ -18,10 +18,10 @@ class JournalViewController: UIViewController {
         date = dateTextField.text ?? ""
     }
     
-    var journal: String = ""
+    var jrnl: String = ""
     
     @IBOutlet weak var journalTextField: UITextView!
     @IBAction func journalData(_ sender: Any) {
-        journal = journalTextField.text ?? ""
+        jrnl = journalTextField.text ?? ""
     }
 }

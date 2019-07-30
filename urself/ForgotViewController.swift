@@ -18,12 +18,12 @@ class ForgotViewController: UIViewController {
         npass = npassTextField.text ?? ""
     }
     
-    var cpass: String = ""
+    var cnpass: String = ""
     
-    @IBOutlet weak var cpassTextField: UITextField!
-    @IBAction func cpassData(_ sender: Any) {
-        cpass = cpassTextField.text ?? ""
-        cpass = npass
+    @IBOutlet weak var cnpassTextField: UITextField!
+    @IBAction func cnpassData(_ sender: Any) {
+        cnpass = cnpassTextField.text ?? ""
+        cnpass = npass
     }
     
 }
