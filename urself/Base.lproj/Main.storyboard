@@ -1001,7 +1001,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7wZ-IM-aXJ">
-                                <rect key="frame" x="87" y="459" width="240" height="128"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1011,7 +1011,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cUp-vw-uyp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5306" y="-858"/>
+            <point key="canvasLocation" x="5305.7971014492759" y="-858.48214285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8cx-9Y-6Dk">
@@ -1071,7 +1071,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2u5-7L-yvJ">
-                                <rect key="frame" x="70" y="384" width="240" height="128"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1081,7 +1081,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b2X-E1-6Nk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3087" y="-858"/>
+            <point key="canvasLocation" x="3086.9565217391305" y="-858.48214285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="I5w-Uk-3Ws">
@@ -1741,7 +1741,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7EX-Bc-FLk">
-                                <rect key="frame" x="119" y="384" width="240" height="128"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1751,7 +1751,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Bg-Y5-pWT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4612" y="-858"/>
+            <point key="canvasLocation" x="4611.594202898551" y="-858.48214285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qrI-1E-Nge">
@@ -1811,7 +1811,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jbO-zm-k1R">
-                                <rect key="frame" x="38" y="321" width="240" height="128"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1821,7 +1821,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4X0-42-ZpF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3828" y="-858"/>
+            <point key="canvasLocation" x="3827.5362318840585" y="-858.48214285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="G1N-Rf-xrO">
@@ -2112,9 +2112,9 @@
         <image name="trending-1" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="mk0-g9-tMO"/>
-        <segue reference="5AJ-CG-FjV"/>
-        <segue reference="1aR-uY-krE"/>
+        <segue reference="rJ3-yE-Sop"/>
+        <segue reference="r9T-AM-Yh0"/>
+        <segue reference="eNl-WD-p9U"/>
         <segue reference="Ajy-jL-cXu"/>
         <segue reference="ld0-qm-uXF"/>
         <segue reference="33G-zh-8fB"/>
