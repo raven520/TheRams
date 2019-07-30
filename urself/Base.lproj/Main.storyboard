@@ -104,10 +104,10 @@
             </objects>
             <point key="canvasLocation" x="-484" y="-858"/>
         </scene>
-        <!--View Controller-->
+        <!--Email View Controller-->
         <scene sceneID="WTV-6G-KTv">
             <objects>
-                <viewController id="2qx-Oo-mPh" sceneMemberID="viewController">
+                <viewController id="2qx-Oo-mPh" customClass="EmailViewController" customModule="urself" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vd9-Qi-PSx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -159,10 +159,10 @@
             </objects>
             <point key="canvasLocation" x="-1178" y="-181"/>
         </scene>
-        <!--View Controller-->
+        <!--Forgot View Controller-->
         <scene sceneID="OYm-07-KRf">
             <objects>
-                <viewController id="JmH-TB-yMm" sceneMemberID="viewController">
+                <viewController id="JmH-TB-yMm" customClass="ForgotViewController" customModule="urself" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w4I-uE-onQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -245,6 +245,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" textContentType="family-name"/>
+                                <connections>
+                                    <action selector="lastData:" destination="Ywi-2r-Qhd" eventType="editingDidEnd" id="m7K-TX-ixI"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fRA-e1-XJc">
                                 <rect key="frame" x="159" y="131" width="185" height="30"/>
@@ -252,6 +255,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" textContentType="name"/>
+                                <connections>
+                                    <action selector="firstData:" destination="Ywi-2r-Qhd" eventType="editingDidEnd" id="IjN-Je-f6A"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="date of birth:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZz-hM-JoQ">
                                 <rect key="frame" x="13" y="227" width="137" height="30"/>
@@ -353,6 +359,10 @@
                         <color key="backgroundColor" red="0.85683221269999998" green="0.95159995720000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="6UO-Ey-iCA"/>
                     </view>
+                    <connections>
+                        <outlet property="firstTextField" destination="fRA-e1-XJc" id="U9p-eJ-l2g"/>
+                        <outlet property="lastTextField" destination="fRA-e1-XJc" id="Bcs-JQ-uDi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="26k-c4-Zv5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -404,21 +414,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3. in what ways does stress medically or cognitively impacting your life? " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V1o-OY-dua">
-                                <rect key="frame" x="20" y="337" width="384" height="41"/>
+                                <rect key="frame" x="21" y="344" width="384" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4. if you have anxiety, what triggers it?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DLT-CL-r2a">
-                                <rect key="frame" x="20" y="418" width="292" height="21"/>
+                                <rect key="frame" x="21" y="438" width="292" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6. have you spoken to anyone about your mental health?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rjn-4w-Qyf">
-                                <rect key="frame" x="21" y="529" width="381" height="79"/>
+                                <rect key="frame" x="20" y="573" width="381" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -432,7 +442,7 @@
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5. have you experienced a panic attack?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ru1-NS-3CY">
-                                <rect key="frame" x="20" y="477" width="305" height="27"/>
+                                <rect key="frame" x="21" y="515" width="305" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -849,10 +859,10 @@
             </objects>
             <point key="canvasLocation" x="2386" y="-2000"/>
         </scene>
-        <!--View Controller-->
+        <!--Journal View Controller-->
         <scene sceneID="IOu-UO-9Rv">
             <objects>
-                <viewController id="933-yE-F4Q" sceneMemberID="viewController">
+                <viewController id="933-yE-F4Q" customClass="JournalViewController" customModule="urself" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mku-HB-yUk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1849,10 +1859,10 @@
             </objects>
             <point key="canvasLocation" x="3828" y="-181"/>
         </scene>
-        <!--View Controller-->
+        <!--New Pass View Controller-->
         <scene sceneID="w3r-DB-Fid">
             <objects>
-                <viewController id="TPC-Yy-CPc" sceneMemberID="viewController">
+                <viewController id="TPC-Yy-CPc" customClass="NewPassViewController" customModule="urself" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3hQ-yB-M0e">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1921,10 +1931,10 @@
             </objects>
             <point key="canvasLocation" x="5306" y="531"/>
         </scene>
-        <!--View Controller-->
+        <!--New Email View Controller-->
         <scene sceneID="IaQ-ho-eMO">
             <objects>
-                <viewController id="htE-Yk-ZZb" sceneMemberID="viewController">
+                <viewController id="htE-Yk-ZZb" customClass="NewEmailViewController" customModule="urself" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mRZ-sk-Izt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2070,11 +2080,11 @@
         <image name="trending-1" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="mk0-g9-tMO"/>
-        <segue reference="p1M-bB-bEF"/>
-        <segue reference="1aR-uY-krE"/>
+        <segue reference="gj8-qb-QOp"/>
+        <segue reference="kGu-dE-B6y"/>
+        <segue reference="yed-oM-rd4"/>
         <segue reference="Ajy-jL-cXu"/>
-        <segue reference="gdY-ah-LD0"/>
-        <segue reference="33G-zh-8fB"/>
+        <segue reference="ld0-qm-uXF"/>
+        <segue reference="ywO-RN-kWl"/>
     </inferredMetricsTieBreakers>
 </document>
