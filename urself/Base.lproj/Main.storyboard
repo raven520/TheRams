@@ -112,7 +112,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V9o-NF-mK9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-484.05797101449281" y="-858.48214285714278"/>
+            <point key="canvasLocation" x="-530" y="-1848"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="WTV-6G-KTv">
@@ -171,7 +171,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r3V-nT-bM0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1178.2608695652175" y="-181.47321428571428"/>
+            <point key="canvasLocation" x="-2220" y="-1090"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OYm-07-KRf">
@@ -233,7 +233,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jnz-zc-dwD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-484.05797101449281" y="-181.47321428571428"/>
+            <point key="canvasLocation" x="-2220" y="-373"/>
         </scene>
         <!--Registration View Controller-->
         <scene sceneID="JXR-kL-1iE">
@@ -389,7 +389,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="26k-c4-Zv5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="244.92753623188409" y="-181.47321428571428"/>
+            <point key="canvasLocation" x="-1381" y="-1090"/>
         </scene>
         <!--Slider View Controller-->
         <scene sceneID="Q6V-20-p8b">
@@ -496,7 +496,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dnd-Sv-NYU" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="pM7-UH-ToW" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="244.92753623188409" y="-858.48214285714278"/>
+            <point key="canvasLocation" x="-530" y="-1103"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Psg-76-d1p">
@@ -992,43 +992,15 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m25-uv-4O6">
-                                <rect key="frame" x="345" y="331" width="51" height="31"/>
-                            </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="reminders and timer notifications" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ura-fK-Qum">
-                                <rect key="frame" x="29" y="334" width="280" height="24"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gMn-rU-A8x">
-                                <rect key="frame" x="347" y="411" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="community notifications" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwv-4W-ACL">
-                                <rect key="frame" x="106" y="411" width="203" height="24"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lSI-nL-Uar">
-                                <rect key="frame" x="347" y="484" width="51" height="31"/>
-                            </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="app update notification" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtN-bl-vU3">
-                                <rect key="frame" x="108" y="484" width="198" height="24"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SP-5L-jp5">
-                                <rect key="frame" x="29" y="44" width="34" height="30"/>
-                                <state key="normal" title="back"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SP-5L-jp5">
+                                <rect key="frame" x="38" y="44" width="48" height="30"/>
+                                <state key="normal" title="&lt; Back"/>
                                 <connections>
                                     <segue destination="lEL-kX-SG1" kind="show" id="rJ3-yE-Sop"/>
                                 </connections>
                             </button>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Px8-oM-KPD">
-                                <rect key="frame" x="87" y="90" width="240" height="128"/>
+                                <rect key="frame" x="86" y="226" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="u5l-TE-fWn">
                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
@@ -1044,29 +1016,109 @@
                                 </view>
                                 <blurEffect style="extraLight"/>
                             </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5kQ-b1-afQ">
+                                <rect key="frame" x="29" y="362" width="243" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Terms &amp; Conditions">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hge-31-cHw">
+                                <rect key="frame" x="29" y="418" width="186" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Account Profile">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvI-Ry-1ZY">
+                                <rect key="frame" x="29" y="474" width="210" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Online vs. Offline">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hjh-lY-pTy">
+                                <rect key="frame" x="339" y="483" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFv-7s-R3c" userLabel="Are you a...">
+                                <rect key="frame" x="129" y="625" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enable Push Notifications " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJv-Ii-hYt">
+                                <rect key="frame" x="29" y="568" width="302" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kna-J5-LaR">
+                                <rect key="frame" x="339" y="570" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CFo-UB-94a">
+                                <rect key="frame" x="29" y="620" width="106" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Z2-by-5Gr">
+                                <rect key="frame" x="339" y="625" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEp-Qb-7ke">
+                                <rect key="frame" x="29" y="731" width="193" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Help &amp; Support">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qiw-ib-RcK">
+                                <rect key="frame" x="29" y="787" width="124" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Feedback">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6T-hz-CdK">
+                                <rect key="frame" x="29" y="675" width="194" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Update Ür-Self ">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="With this, others on the app can see if you are actively present on your account." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIZ-08-x2a">
+                                <rect key="frame" x="43" y="522" width="327" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="settings" translatesAutoresizingMaskIntoConstraints="NO" id="B42-Gb-ZHe">
+                                <rect key="frame" x="91" y="90" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.85683221269999998" green="0.95159995720000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="rtN-bl-vU3" firstAttribute="top" secondItem="gwv-4W-ACL" secondAttribute="bottom" constant="52" id="3lP-SV-jEa"/>
-                            <constraint firstItem="lSI-nL-Uar" firstAttribute="leading" secondItem="rtN-bl-vU3" secondAttribute="trailing" constant="38" id="59b-28-08k"/>
-                            <constraint firstItem="gwv-4W-ACL" firstAttribute="top" secondItem="Ura-fK-Qum" secondAttribute="bottom" constant="52" id="5aB-gv-jZC"/>
-                            <constraint firstItem="ScF-Jv-gny" firstAttribute="bottom" secondItem="rtN-bl-vU3" secondAttribute="bottom" constant="518" id="FGz-0v-B2Y"/>
-                            <constraint firstItem="rtN-bl-vU3" firstAttribute="trailing" secondItem="Ura-fK-Qum" secondAttribute="trailing" id="KXV-xb-Zn4"/>
-                            <constraint firstItem="gwv-4W-ACL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ScF-Jv-gny" secondAttribute="leading" symbolic="YES" id="Z3V-Rd-7dL"/>
-                            <constraint firstItem="rtN-bl-vU3" firstAttribute="trailing" secondItem="gwv-4W-ACL" secondAttribute="trailing" id="ciU-ud-XTJ"/>
-                            <constraint firstItem="rtN-bl-vU3" firstAttribute="leading" secondItem="ScF-Jv-gny" secondAttribute="leading" constant="111" id="kaz-22-UQv"/>
-                            <constraint firstItem="Ura-fK-Qum" firstAttribute="centerY" secondItem="m25-uv-4O6" secondAttribute="centerY" id="mjX-pu-PdF"/>
-                            <constraint firstItem="Ura-fK-Qum" firstAttribute="leading" secondItem="8SP-5L-jp5" secondAttribute="leading" id="nEY-it-MBU"/>
                             <constraint firstItem="8SP-5L-jp5" firstAttribute="top" secondItem="ScF-Jv-gny" secondAttribute="top" id="rD4-1b-dHB"/>
-                            <constraint firstItem="m25-uv-4O6" firstAttribute="leading" secondItem="Ura-fK-Qum" secondAttribute="trailing" constant="38" id="ux6-Ek-E4E"/>
-                            <constraint firstItem="rtN-bl-vU3" firstAttribute="centerY" secondItem="lSI-nL-Uar" secondAttribute="centerY" id="w3y-kE-xyV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ScF-Jv-gny"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cUp-vw-uyp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5305.7971014492759" y="-858.48214285714278"/>
+            <point key="canvasLocation" x="-530" y="-374"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8cx-9Y-6Dk">
@@ -1313,7 +1365,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a2T-c4-caS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5305.7971014492759" y="-181.47321428571428"/>
+            <point key="canvasLocation" x="-530" y="299"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TVg-Ia-fCS">
@@ -1363,22 +1415,11 @@
                                 <rect key="frame" x="282" y="818" width="83" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0nn-88-mYI">
-                                <rect key="frame" x="39" y="334" width="300" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                <state key="normal" title="⚙️ settings">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="8ES-Q1-LKf" kind="show" id="4kB-ev-ZTG"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWP-pK-NBz">
-                                <rect key="frame" x="40" y="287" width="336" height="30"/>
+                                <rect key="frame" x="39" y="295" width="336" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                <state key="normal" title="view survey">
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="25"/>
+                                <state key="normal" title="View Survey">
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -1386,10 +1427,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OhY-OJ-kJw">
-                                <rect key="frame" x="40" y="227" width="343" height="30"/>
+                                <rect key="frame" x="37" y="240" width="343" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="manage account">
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Manage Account">
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -1413,6 +1454,17 @@
                                 </view>
                                 <blurEffect style="extraLight"/>
                             </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0nn-88-mYI">
+                                <rect key="frame" x="37" y="350" width="300" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="26"/>
+                                <state key="normal" title="⚙️ Settings">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8ES-Q1-LKf" kind="show" id="4kB-ev-ZTG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.85683221269999998" green="0.95159995720000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="3po-Np-Z5m"/>
@@ -1420,7 +1472,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dqG-Ao-kcI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1650.7246376811595" y="-181.47321428571428"/>
+            <point key="canvasLocation" x="-1412" y="-374"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -1534,7 +1586,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1178.2608695652175" y="-858.48214285714278"/>
+            <point key="canvasLocation" x="-1348" y="-1848"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Mut-Ue-hBy">
@@ -2099,7 +2151,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jiX-Kj-sEe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5305.7971014492759" y="530.35714285714289"/>
+            <point key="canvasLocation" x="-2220" y="299"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IaQ-ho-eMO">
@@ -2175,7 +2227,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3W3-wN-X0w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6063.7681159420299" y="-181.47321428571428"/>
+            <point key="canvasLocation" x="-1413" y="299"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wTt-S8-Uk8">
@@ -2252,7 +2304,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BdU-Ro-S5g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6063.7681159420299" y="-858.48214285714278"/>
+            <point key="canvasLocation" x="5414" y="-875"/>
         </scene>
     </scenes>
     <resources>
@@ -2272,17 +2324,17 @@
         <image name="reflection" width="1000" height="1510"/>
         <image name="rosy" width="1000" height="1458"/>
         <image name="sadd" width="1600" height="1600"/>
+        <image name="settings" width="256" height="256"/>
         <image name="smile" width="512" height="512"/>
         <image name="smooth wood" width="1000" height="1000"/>
         <image name="trending-1" width="200" height="200"/>
         <image name="underwater" width="1733" height="1300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="uZ4-s9-tcz"/>
-        <segue reference="YRD-al-MAL"/>
-        <segue reference="p1M-bB-bEF"/>
-        <segue reference="DOz-x9-VBc"/>
-        <segue reference="gdY-ah-LD0"/>
+        <segue reference="rJ3-yE-Sop"/>
+        <segue reference="HFr-D2-G6i"/>
+        <segue reference="Ajy-jL-cXu"/>
+        <segue reference="weP-Uz-2Ke"/>
         <segue reference="ywO-RN-kWl"/>
     </inferredMetricsTieBreakers>
 </document>
