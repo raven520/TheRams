@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C31B426B22EF43D300AC3AD0 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31B426A22EF43D300AC3AD0 /* SliderViewController.swift */; };
 		C31B426D22EF466900AC3AD0 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31B426C22EF466900AC3AD0 /* UserViewController.swift */; };
+		C31B427022EF52D000AC3AD0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31B426E22EF52D000AC3AD0 /* GameScene.swift */; };
 		C31B427522EF55CD00AC3AD0 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31B427422EF55CD00AC3AD0 /* RegistrationViewController.swift */; };
 		C31B427722EF6B2200AC3AD0 /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31B427622EF6B2200AC3AD0 /* ForgotViewController.swift */; };
 		C31B427922EF6C6100AC3AD0 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31B427822EF6C6100AC3AD0 /* EmailViewController.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		C31B426A22EF43D300AC3AD0 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
 		C31B426C22EF466900AC3AD0 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		C31B426E22EF52D000AC3AD0 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = ../../../.Trash/GameScene.swift; sourceTree = "<group>"; };
 		C31B427422EF55CD00AC3AD0 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		C31B427622EF6B2200AC3AD0 /* ForgotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
 		C31B427822EF6C6100AC3AD0 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				C38BCBA422E0B169005A379B /* urself.entitlements */,
+				C31B426E22EF52D000AC3AD0 /* GameScene.swift */,
 				C38BCBAB22E0CB7A005A379B /* GoogleService-Info.plist */,
 				C37F8A8522DF787B00943C61 /* AppDelegate.swift */,
 				C37F8A8722DF787B00943C61 /* ViewController.swift */,
