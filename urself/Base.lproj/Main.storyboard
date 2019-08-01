@@ -403,14 +403,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zA-0Q-lst">
-                                <rect key="frame" x="161" y="708" width="92" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="done"/>
-                                <connections>
-                                    <segue destination="qai-l4-Ngv" kind="show" id="p1M-bB-bEF"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. how would you rank your stress level this week?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tNG-au-gsh">
                                 <rect key="frame" x="13" y="330" width="381" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -478,11 +470,21 @@
                                 <blurEffect style="extraLight"/>
                             </visualEffectView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VK6-nb-XWp">
-                                <rect key="frame" x="154" y="248" width="99" height="30"/>
+                                <rect key="frame" x="132" y="259" width="151" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="complete later"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Complete Later?"/>
                                 <connections>
                                     <segue destination="qai-l4-Ngv" kind="show" id="356-w7-yM2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zA-0Q-lst">
+                                <rect key="frame" x="161" y="798" width="92" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <segue destination="qai-l4-Ngv" kind="show" id="p1M-bB-bEF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -496,7 +498,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dnd-Sv-NYU" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="pM7-UH-ToW" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-530" y="-1103"/>
+            <point key="canvasLocation" x="-530.43478260869574" y="-1103.5714285714284"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Psg-76-d1p">
@@ -1328,9 +1330,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPI-eQ-nLY">
-                                <rect key="frame" x="20" y="44" width="34" height="30"/>
+                                <rect key="frame" x="13" y="44" width="48" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="back"/>
+                                <state key="normal" title="&lt; Back"/>
                                 <connections>
                                     <segue destination="lEL-kX-SG1" kind="show" id="rYl-j2-YUX"/>
                                 </connections>
@@ -1353,30 +1355,30 @@
                                 <blurEffect style="extraLight"/>
                             </visualEffectView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YNw-WB-i4n">
-                                <rect key="frame" x="30" y="325" width="154" height="36"/>
+                                <rect key="frame" x="28" y="325" width="159" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                <state key="normal" title="change password"/>
+                                <state key="normal" title="Change Password"/>
                                 <connections>
                                     <segue destination="TPC-Yy-CPc" kind="show" id="fTu-VC-V9r"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugT-on-elw">
-                                <rect key="frame" x="20" y="287" width="115" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                <state key="normal" title="change email"/>
-                                <connections>
-                                    <segue destination="htE-Yk-ZZb" kind="show" id="kR7-M3-BUs"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="in6-DD-tEO">
-                                <rect key="frame" x="44" y="449" width="91" height="36"/>
+                                <rect key="frame" x="28" y="415" width="92" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                <state key="normal" title="my activity"/>
+                                <state key="normal" title="My Activity"/>
                                 <connections>
                                     <segue destination="zl2-CB-tF4" kind="show" id="WyW-7g-vjx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugT-on-elw">
+                                <rect key="frame" x="28" y="287" width="122" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Change Email"/>
+                                <connections>
+                                    <segue destination="htE-Yk-ZZb" kind="show" id="kR7-M3-BUs"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1386,7 +1388,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a2T-c4-caS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-530" y="299"/>
+            <point key="canvasLocation" x="-530.43478260869574" y="298.66071428571428"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TVg-Ia-fCS">
@@ -1405,10 +1407,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vB5-eV-xq8">
-                                <rect key="frame" x="61" y="818" width="56" height="52"/>
+                                <rect key="frame" x="61" y="818" width="57" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="account">
-                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Account">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home" translatesAutoresizingMaskIntoConstraints="NO" id="Wpp-II-Pk5">
@@ -1418,8 +1420,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdp-lH-U5l">
                                 <rect key="frame" x="184" y="823" width="46" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="home">
-                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="qai-l4-Ngv" kind="show" id="HFr-D2-G6i"/>
@@ -1428,8 +1430,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yGn-LE-A54">
                                 <rect key="frame" x="292" y="818" width="62" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="trending">
-                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Trending">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trending-1" translatesAutoresizingMaskIntoConstraints="NO" id="cwJ-yc-EuT">
@@ -2360,8 +2362,9 @@
         <image name="underwater" width="1733" height="1300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="YRD-al-MAL"/>
-        <segue reference="afj-Ca-aQL"/>
+        <segue reference="wO3-m6-z7p"/>
+        <segue reference="rYl-j2-YUX"/>
+        <segue reference="HFr-D2-G6i"/>
         <segue reference="DOz-x9-VBc"/>
         <segue reference="weP-Uz-2Ke"/>
         <segue reference="ywO-RN-kWl"/>
