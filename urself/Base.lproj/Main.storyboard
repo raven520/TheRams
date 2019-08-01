@@ -955,14 +955,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="TYPE HERE:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pIQ-cu-Ihs">
-                                <rect key="frame" x="38" y="361" width="338" height="239"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ejP-lh-Nwv">
                                 <rect key="frame" x="87" y="87" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -987,6 +979,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="TYPE HERE:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pIQ-cu-Ihs">
+                                <rect key="frame" x="38" y="325" width="334" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.85683221269999998" green="0.95159995720000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="H1u-hk-SPI"/>
@@ -1679,6 +1679,15 @@
                                 </view>
                                 <blurEffect style="extraLight"/>
                             </visualEffectView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="CfH-F8-bJG">
+                                <rect key="frame" x="38" y="264" width="339" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <string key="text">Everyone experiences some anxiety now and then, but people with major or diagnosed anxiety fear social interactions or constantly worry about things. </string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.85683221269999998" green="0.95159995720000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="v2n-nu-QpN"/>
@@ -2362,9 +2371,8 @@
         <image name="underwater" width="1733" height="1300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="wO3-m6-z7p"/>
-        <segue reference="rYl-j2-YUX"/>
-        <segue reference="HFr-D2-G6i"/>
+        <segue reference="SKE-5q-mjU"/>
+        <segue reference="7pr-DH-x4E"/>
         <segue reference="DOz-x9-VBc"/>
         <segue reference="weP-Uz-2Ke"/>
         <segue reference="ywO-RN-kWl"/>
