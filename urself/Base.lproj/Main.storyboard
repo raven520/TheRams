@@ -107,6 +107,7 @@
                     </view>
                     <connections>
                         <outlet property="passData" destination="Bi5-6j-N5y" id="k5c-l9-3bt"/>
+                        <outlet property="passTextField" destination="Bi5-6j-N5y" id="gFM-b0-YpS"/>
                         <outlet property="userTextField" destination="wjl-l5-TwO" id="VmR-i5-LFe"/>
                     </connections>
                 </viewController>
@@ -114,10 +115,10 @@
             </objects>
             <point key="canvasLocation" x="-530" y="-1848"/>
         </scene>
-        <!--View Controller-->
+        <!--Email View Controller-->
         <scene sceneID="WTV-6G-KTv">
             <objects>
-                <viewController id="2qx-Oo-mPh" sceneMemberID="viewController">
+                <viewController id="2qx-Oo-mPh" customClass="EmailViewController" customModule="urself" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vd9-Qi-PSx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -139,6 +140,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" textContentType="email"/>
+                                <connections>
+                                    <action selector="emailData:" destination="2qx-Oo-mPh" eventType="editingDidEnd" id="51g-NW-3mX"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNP-Le-Ggk">
                                 <rect key="frame" x="313" y="391" width="30" height="30"/>
@@ -168,15 +172,18 @@
                         <color key="backgroundColor" red="0.85683221269999998" green="0.95159995720000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="mMQ-uU-bJB"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="ak3-7b-IOG" id="sl8-p7-t29"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r3V-nT-bM0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2220" y="-1090"/>
         </scene>
-        <!--View Controller-->
+        <!--Forgot View Controller-->
         <scene sceneID="OYm-07-KRf">
             <objects>
-                <viewController id="JmH-TB-yMm" sceneMemberID="viewController">
+                <viewController id="JmH-TB-yMm" customClass="ForgotViewController" customModule="urself" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w4I-uE-onQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -205,13 +212,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WTL-UO-XvX">
-                                <rect key="frame" x="209" y="287" width="185" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="cnpassData:" destination="JmH-TB-yMm" eventType="editingDidEnd" id="rhA-Cn-1E9"/>
+                                    <action selector="npassData:" destination="JmH-TB-yMm" eventType="editingDidEnd" id="cz0-ZL-Tpn"/>
+                                </connections>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smile" translatesAutoresizingMaskIntoConstraints="NO" id="Ubx-6S-dlw">
                                 <rect key="frame" x="115" y="94" width="184" height="150"/>
@@ -226,10 +230,21 @@
                                     <segue destination="Mrl-65-FFn" kind="show" id="ywO-RN-kWl"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WTL-UO-XvX" customClass="For">
+                                <rect key="frame" x="209" y="287" width="185" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.85683221269999998" green="0.95159995720000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="PMN-ia-VKI"/>
                     </view>
+                    <connections>
+                        <outlet property="cnpassTextField" destination="d4J-rc-QAc" id="9p5-vF-Rtf"/>
+                        <outlet property="npassTextField" destination="WTL-UO-XvX" id="ALR-sh-gO6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jnz-zc-dwD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -267,6 +282,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" textContentType="family-name"/>
+                                <connections>
+                                    <action selector="lastData:" destination="Ywi-2r-Qhd" eventType="editingDidEnd" id="FUr-G0-N57"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fRA-e1-XJc">
                                 <rect key="frame" x="159" y="220" width="185" height="30"/>
@@ -274,6 +292,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" textContentType="name"/>
+                                <connections>
+                                    <action selector="firstData:" destination="Ywi-2r-Qhd" eventType="editingDidEnd" id="uhf-kG-Jje"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date of Birth:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZz-hM-JoQ">
                                 <rect key="frame" x="20" y="365" width="142" height="30"/>
@@ -302,6 +323,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
+                                <connections>
+                                    <action selector="emailData:" destination="Ywi-2r-Qhd" eventType="editingDidEnd" id="Xpa-Ec-qpO"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQ5-Gd-EMj">
                                 <rect key="frame" x="25" y="573" width="114" height="31"/>
@@ -316,6 +340,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" textContentType="password"/>
+                                <connections>
+                                    <action selector="passData:" destination="Ywi-2r-Qhd" eventType="editingDidEnd" id="acd-Wj-TDO"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conf. Password:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1V-ut-aUr">
                                 <rect key="frame" x="20" y="636" width="200" height="31"/>
@@ -337,6 +364,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" textContentType="username"/>
+                                <connections>
+                                    <action selector="userData:" destination="Ywi-2r-Qhd" eventType="editingDidEnd" id="QGd-Jr-A5G"/>
+                                </connections>
                             </textField>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mbO-th-HN0">
                                 <rect key="frame" x="152" y="675" width="256" height="77"/>
@@ -355,6 +385,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" textContentType="password"/>
+                                <connections>
+                                    <action selector="cpassData:" destination="Ywi-2r-Qhd" eventType="editingDidEnd" id="5Wv-Tz-Kyo"/>
+                                </connections>
                             </textField>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FtU-qh-MbP">
                                 <rect key="frame" x="62" y="66" width="291" height="128"/>
@@ -386,6 +419,14 @@
                         <color key="backgroundColor" red="0.85683221269999998" green="0.95159995720000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="6UO-Ey-iCA"/>
                     </view>
+                    <connections>
+                        <outlet property="cpassTextField" destination="HIW-Tc-Ltg" id="2m4-Y0-mzV"/>
+                        <outlet property="emailTextField" destination="nql-ar-4QV" id="tJu-v8-Yrq"/>
+                        <outlet property="firstTextField" destination="fRA-e1-XJc" id="2zF-zj-Czt"/>
+                        <outlet property="lastTextField" destination="nhm-cB-Rws" id="4Ja-29-ncO"/>
+                        <outlet property="passTextField" destination="iJt-fQ-RK9" id="DxS-6O-jYs"/>
+                        <outlet property="userTextField" destination="nth-Lu-Odk" id="Q7c-9M-HY7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="26k-c4-Zv5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -451,6 +492,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="slider:" destination="pM7-UH-ToW" eventType="valueChanged" id="6go-e9-Jcr"/>
+                                    <action selector="slider:" destination="s1p-If-A5Y" eventType="valueChanged" id="TVX-Rr-5Lu"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5. have you experienced a panic attack?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ru1-NS-3CY">
@@ -491,6 +533,7 @@
                     </view>
                     <connections>
                         <outlet property="slider" destination="eIf-gZ-vU9" id="pC7-mG-iwi"/>
+                        <outlet property="stressSlider" destination="eIf-gZ-vU9" id="uHI-Go-kzD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dnd-Sv-NYU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -890,10 +933,10 @@
             </objects>
             <point key="canvasLocation" x="2385.507246376812" y="-2000.2232142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Journal View Controller-->
         <scene sceneID="IOu-UO-9Rv">
             <objects>
-                <viewController id="933-yE-F4Q" sceneMemberID="viewController">
+                <viewController id="933-yE-F4Q" customClass="JournalViewController" customModule="urself" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mku-HB-yUk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -972,11 +1015,19 @@
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="dateData:" destination="933-yE-F4Q" eventType="editingDidEnd" id="AYY-Tc-rz1"/>
+                                    <action selector="journalData:" destination="933-yE-F4Q" eventType="editingDidEnd" id="rVy-aB-iXa"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.85683221269999998" green="0.95159995720000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="H1u-hk-SPI"/>
                     </view>
+                    <connections>
+                        <outlet property="dateTextField" destination="Ju8-6H-uyx" id="acg-hk-MJG"/>
+                        <outlet property="journalTextField" destination="pIQ-cu-Ihs" id="OcN-Vg-8EX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5au-4F-iGb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2128,10 +2179,10 @@
             </objects>
             <point key="canvasLocation" x="3827.5362318840585" y="-181.47321428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--New Pass View Controller-->
         <scene sceneID="w3r-DB-Fid">
             <objects>
-                <viewController id="TPC-Yy-CPc" sceneMemberID="viewController">
+                <viewController id="TPC-Yy-CPc" customClass="NewPassViewController" customModule="urself" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3hQ-yB-M0e">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2160,6 +2211,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="cnpassData:" destination="TPC-Yy-CPc" eventType="editingDidEnd" id="tMb-QK-xoG"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rMf-ge-a8m">
                                 <rect key="frame" x="209" y="287" width="185" height="30"/>
@@ -2167,6 +2221,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="npassData:" destination="TPC-Yy-CPc" eventType="editingDidEnd" id="OfD-3O-qyw"/>
+                                </connections>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smile" translatesAutoresizingMaskIntoConstraints="NO" id="hTw-Je-bcY">
                                 <rect key="frame" x="137" y="86" width="141" height="121"/>
@@ -2185,6 +2242,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="olpass:" destination="TPC-Yy-CPc" eventType="editingDidEnd" id="V2p-vD-XTl"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fpG-3P-N9L">
                                 <rect key="frame" x="111" y="427" width="192" height="42"/>
@@ -2199,15 +2259,20 @@
                         <color key="backgroundColor" red="0.85683221269999998" green="0.95159995720000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="4NE-qk-tDN"/>
                     </view>
+                    <connections>
+                        <outlet property="cnpassTextField" destination="ehg-og-Bt8" id="IrJ-9z-Lf7"/>
+                        <outlet property="npassTextField" destination="rMf-ge-a8m" id="FA2-8h-qfi"/>
+                        <outlet property="olpassTextField" destination="JjV-XZ-8pR" id="7yf-Og-Rbq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jiX-Kj-sEe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2220" y="299"/>
         </scene>
-        <!--View Controller-->
+        <!--New Email View Controller-->
         <scene sceneID="IaQ-ho-eMO">
             <objects>
-                <viewController id="htE-Yk-ZZb" sceneMemberID="viewController">
+                <viewController id="htE-Yk-ZZb" customClass="NewEmailViewController" customModule="urself" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mRZ-sk-Izt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2236,6 +2301,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="cnemailData:" destination="htE-Yk-ZZb" eventType="editingDidEnd" id="faY-jp-HEp"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7SX-pG-nxD">
                                 <rect key="frame" x="176" y="283" width="185" height="30"/>
@@ -2243,6 +2311,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="nemailData:" destination="htE-Yk-ZZb" eventType="editingDidEnd" id="CdB-IJ-4Bu"/>
+                                </connections>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smile" translatesAutoresizingMaskIntoConstraints="NO" id="TJt-Nj-P1L">
                                 <rect key="frame" x="137" y="86" width="141" height="121"/>
@@ -2270,11 +2341,19 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="oemailData:" destination="htE-Yk-ZZb" eventType="editingDidEnd" id="LTb-4q-W1f"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.85683221269999998" green="0.95159995720000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="3dS-mN-wGK"/>
                     </view>
+                    <connections>
+                        <outlet property="cnemailTextField" destination="k7D-wI-Xfa" id="dUU-ne-RYn"/>
+                        <outlet property="nemailTextField" destination="7SX-pG-nxD" id="aFK-v9-zNb"/>
+                        <outlet property="oemailTextField" destination="P4d-Ee-n4g" id="ext-eX-HRi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3W3-wN-X0w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2383,8 +2462,8 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="fEN-co-s4I"/>
-        <segue reference="fLS-Fb-NW2"/>
-        <segue reference="OPV-Mm-dgK"/>
+        <segue reference="rYl-j2-YUX"/>
+        <segue reference="afj-Ca-aQL"/>
         <segue reference="Ajy-jL-cXu"/>
         <segue reference="ld0-qm-uXF"/>
         <segue reference="ywO-RN-kWl"/>

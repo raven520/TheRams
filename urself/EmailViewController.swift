@@ -17,6 +17,6 @@ class EmailViewController: UIViewController {
     @IBAction func emailData(_ sender: Any) {
         email = emailTextField.text ?? ""
         
-    } // how to access variable from another view controller?
+    } 
     
 }

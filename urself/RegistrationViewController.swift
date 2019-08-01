@@ -31,6 +31,12 @@ class RegistrationViewController: UIViewController{
         email = emailTextField.text ?? ""
     }
     
+    var user: String = ""
+    @IBOutlet weak var userTextField: UITextField!
+    @IBAction func userData(_ sender: Any) {
+        user = userTextField.text ?? ""
+    }
+    
     var pass: String = ""
     @IBOutlet weak var passTextField: UITextField!
     @IBAction func passData(_ sender: Any) {
